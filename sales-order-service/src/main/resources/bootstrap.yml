@@ -1,0 +1,8 @@
+---
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8888
+#      name : sales-order-service, like this we can provide multiple application properties for the application
+  application:
+    name: sales-order-service
