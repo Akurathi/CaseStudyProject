@@ -17,7 +17,7 @@ public class SwaggerAPIDocumentationConfig {
         return new ApiInfoBuilder().title("Customer REST CRUD operations API in Spring-Boot 2")
                 .description(
                         "REST API for monitoring using Spring Boot")
-                .termsOfServiceUrl("").version("0.0.1-SNAPSHOT").contact(new Contact("Sri Harsha Akurathi", "https://github.com/Akurathi/case-study/tree/master/customer", "sunnyakurathi@gmail.com")).build();
+                .termsOfServiceUrl("").version("0.0.1-SNAPSHOT").contact(new Contact("Sri Harsha Akurathi", "https://github.com/Akurathi/CaseStudyProject/tree/master/customer", "sunnyakurathi@gmail.com")).build();
     }
     @Bean
     public Docket configureControllerPackageAndConvertors() {
